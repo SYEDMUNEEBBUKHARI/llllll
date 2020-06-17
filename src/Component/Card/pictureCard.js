@@ -12,7 +12,7 @@ class Cardview extends Component {
         return (
 
 
-            <div className="bg-light">
+            <div className="makedark">
                 {/* <header className="App-header">
         <img src={logoo} className="App-logo" alt="logo" /> 
          
@@ -39,7 +39,7 @@ class Cardview extends Component {
                                 <p className=" cardtitlee">Contact Us</p>
 
                                 <span>
-                                    Tell us about your home and we will start </span><span style={{ textAlign: 'center' }}> crafting a great offer for you.</span>
+                                    TODAY Tell us about your property and we will begin  </span><span style={{ textAlign: 'center' }}> crafting a great offer </span><p style={{ textAlign: 'center' }}> for you.</p>
 
 
                             </Card.Body>
@@ -53,7 +53,10 @@ class Cardview extends Component {
               </p>
 
                                 <Card.Text>
-                                    Get the market price you derserve for your home in under 24 hours.
+                                    Get the market price you derserve for
+                                    <span style={{ textAlign: 'center' }}> your property in as little as</span>
+                                    <p style={{ textAlign: 'center' }}> 24 hours.</p>
+
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -66,7 +69,9 @@ class Cardview extends Component {
               </p>
 
                                 <Card.Text>
-                                    Get the cash you need now. You do NOT have to wait 6 – 12 months to get your house sold.
+                                    Get the CASH you need now! You do NOT have to wait 6 – 12 months
+                                <p style={{ textAlign: 'center' }}>to get your property sold.</p>
+
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -75,7 +80,8 @@ class Cardview extends Component {
                 </Container>
                 <br></br><br></br>
                 <div className="text-center ">
-                    <span className="ltrspc">Why work with us?</span>
+                    <span className="ltrspc">WHY YOU SHOULD WORK</span>
+                    <p className="ltrspc"> WITH QPG?</p>
                 </div>
                 <br></br>
                 <br></br>
@@ -90,11 +96,16 @@ class Cardview extends Component {
                             <br></br>
 
 
-                            <li><TiTick className="makeGREEN" />Free offer in under 24 hours</li>
+                            <li><TiTick className="makeGREEN" />FREE offer in under 24 hours</li>
                             <li><TiTick className="makeGREEN" />No realtor commissions</li>
                             <li> <TiTick className="makeGREEN" />No showings</li>
-                            <li><TiTick className="makeGREEN" />No repairs needed</li>
-                            <li><TiTick className="makeGREEN" />No upgrade costs</li>
+                            <li> <TiTick className="makeGREEN" />No closing costs </li>
+
+                            <li><TiTick className="makeGREEN" />We’ll Buy Your Property “AS-IS” No repairs needed No upgrade costs
+
+                            </li>
+
+
 
                         </div>
                         <div class="col-sm-4 col-md-4">

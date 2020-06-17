@@ -18,25 +18,33 @@
     text-align: center;
     font-size: 22px;
     letter-spacing: 3px;
+    color: goldenrod;
+}
+
+.mapicolor{
+    background-color: black;
 }
 
 .hoc{
     border: none;
+    
 }
 .maintitlefor{
     text-align: center;
     font-size: 25px;
     letter-spacing: 2px;
+    color: goldenrod;
 }
 .sizeadjust{
     font-size: 25px;
+    color: goldenrod;
     
 }
 .makeblu{
     color: royalblue;
 }
 .adjli li{
-    color:rgb(0, 0, 0)(19, 12, 12);
+    color: black;
     text-align: center;
 }
 

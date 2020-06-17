@@ -1,7 +1,10 @@
 .bgcolor{
 background-color: black;
 color:white;
-
+-webkit-box-shadow: 0 8px 6px 10px goldenrod;
+	   -moz-box-shadow: 0 8px 6px 10px goldenrod;
+            box-shadow: 0 8px 6px 10px goldenrod;
+            
 }
 
 .bgcolor li{

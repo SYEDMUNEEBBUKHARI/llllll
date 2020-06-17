@@ -44,7 +44,7 @@
     
 }
 .setthehead{
-    color: black;
+    color: goldenrod;
     font-size: 65px;
     text-align: center;
     letter-spacing: 7px;
@@ -83,7 +83,9 @@ color: rgb(18, 69, 165);
   text-align: center;
 
 }
-
+.bgc{
+    background-color: black;
+}
 .Land3{
      background: url('../../assets/3.jpg') no-repeat fixed;
      background-size: cover;

@@ -1,5 +1,6 @@
 .bgimage{
-     background: url('../../assets/standing.jpg') no-repeat fixed;
+     background: url('../../assets/co.jpg') no-repeat fixed;
+
      background-size: cover;
   height: 900px;
 
@@ -23,10 +24,18 @@
 .headingsetting{
   text-shadow: 1px 1px rgba(0, 0, 0, 0.788);
 font-size: 65px;
-color: white;
+color: goldenrod;
 text-align: center;
 font-family: raleway,sans-serif;
 
+}
+
+.adjusthe{
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.788);
+font-size: 30px;
+color: goldenrod;
+text-align: center;
+font-family: raleway,sans-serif;
 }
 .maketext{
   text-align: center;

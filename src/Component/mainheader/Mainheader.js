@@ -8,10 +8,11 @@ class Mainheader extends Component {
                 <div className="bgimage">
 
                     <div className="adjustcontent">
-                        <h2 className="headingsetting" >Consider your home sold</h2>
+                        <h2 className="headingsetting" >We Make Getting Your Property  </h2>
+                        <p className="adjusthe">Sold, An Easy Process</p>
                         <button style={{ textAlign: 'center' }} className="btnsetting">Discover My Offer</button>
                         <br></br><br></br>
-                        <p className="maketext">Tell us about your home. Receive an offer. It's that simple.</p>
+                        {/* <p className="maketext">Tell us about your home. Receive an offer. It's that simple.</p> */}
                     </div>          </div>
 
 

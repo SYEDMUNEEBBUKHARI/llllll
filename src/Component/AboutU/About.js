@@ -7,7 +7,7 @@ class About extends Component {
         return (
             <React.Fragment>
                 <div className="bimage">
-                    <div className="container containe setaboutus" style={{ backgroundColor: 'white' }}>
+                    <div className="container containe setaboutus" style={{ backgroundColor: 'black' }}>
 
                         <br></br> <br></br>  <br></br> <br></br>  <p className="incsize">About Us</p>
                         <p className="makedim">  YOU NAME IT. WE BUY IT.</p><br></br>
