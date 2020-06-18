@@ -14,7 +14,7 @@ class Mapcom extends Component {
                                 <br></br>
                                 <br></br>
                                 <br></br>
-                                <div className="maintitlefor">Crowned Estate Group is currently</div>
+                                <div className="maintitlefor">Quintessential Property Group is currently</div>
                                 <div className="minarrange">servicing the following areas:</div>
                                 <br></br>
                                 <br></br>

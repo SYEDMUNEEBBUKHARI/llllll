@@ -12,7 +12,7 @@ class About extends Component {
                         <br></br> <br></br>  <br></br> <br></br>  <p className="incsize">About Us</p>
                         <p className="makedim">  YOU NAME IT. WE BUY IT.</p><br></br>
                         <div className="work">
-                            <li>   We are Crowned Estate Group and  </li>
+                            <li>   We are Quintessential Property Group and  </li>
 
 
 

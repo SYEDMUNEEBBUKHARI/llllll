@@ -42,7 +42,7 @@ class MainComp extends Component {
                                 <div className="back1">
                                     <div className="card-img-top" style={{ paddingTop: '150px' }}>
                                         <FiNavigation className="navi" /><br></br><br></br>
-                                        <a href="#" className="east">Homes@crownedestategroup.com</a>
+                                        <a href="#" className="east">Homes@QuintessentialPropertygroup.com</a>
                                     </div>
                                 </div>
                             </div>
