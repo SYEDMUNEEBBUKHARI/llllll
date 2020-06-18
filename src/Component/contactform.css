@@ -1,0 +1,26 @@
+.bgform{
+    color: goldenrod;
+    
+    text-align: center;
+}
+div.model-header{
+    text-align: center;
+}
+.modal-header {
+  text-align: center;
+}
+
+.signup2{
+    color:goldenrod;
+    background-color: black;
+    text-align: center;
+}
+.chkbtn{
+    color :white;
+    background-color:goldenrod;
+    border:none;
+    box-shadow: none;
+}
+.setlogin{
+    display: contents
+}

@@ -9,7 +9,7 @@ class Footer extends Component {
                     <br></br>
                     <li> <AiOutlineCopyrightCircle style={{ color: 'white' }} /> 2020 by Quintessential Property Group.</li>
                     <li>  Serving homeowners in New Jersey, New York and Florida</li>
-                    <li>  Connect with us on Facebook & Youtube</li>
+                    <li>  Connect with us on Facebook, Instagram & Youtube</li>
                     <br></br>
                 </div>
             </React.Fragment>

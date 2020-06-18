@@ -7,8 +7,24 @@ import Logo from "../../assets/index.jpeg";
 import { TiTick } from "react-icons/ti"
 import { MdClose } from "react-icons/md"
 import "./Cardd.css"
+import ContactForm from "../Contactform";
 class Cardview extends Component {
+
+    state = {
+        makevisible: false
+    }
+    maketovisible = () => {
+        console.log("clicked");
+        this.setState({ makevisible: true });
+    }
+    toclose = () => { this.setState({ makevisible: false }); }
     render() {
+        let formfor;
+        if (this.state.makevisible) {
+            console.log("clicked");
+            formfor = <ContactForm close={this.toclose} />;
+
+        }
         return (
 
 
@@ -19,7 +35,7 @@ class Cardview extends Component {
        </header> */}
                 <br></br>
                 <br></br>
-                <p className="cardhead" >An Easy Process</p>
+                <div className="cardhead" >An Easy Process</div>
 
                 <Row className="mt-5">
                     <Col sm={3}></Col>
@@ -36,43 +52,43 @@ class Cardview extends Component {
                         <Card className="overflow ml-sm-2 text-center">
                             <Card.Img varient="top" src={Land1} className=" card-img-top " />
                             <Card.Body>
-                                <p className=" cardtitlee">Contact Us</p>
+                                <div className=" cardtitlee">Contact Us</div>
 
-                                <span>
-                                    TODAY Tell us about your property and we will begin  </span><span style={{ textAlign: 'center' }}> crafting a great offer </span><p style={{ textAlign: 'center' }}> for you.</p>
+                                <div>
+                                    TODAY Tell us about your property and we will begin crafting a great offer </div><div style={{ textAlign: 'center' }}>  </div><div style={{ textAlign: 'center' }}> for you.</div>
 
-
+                                <p></p>
                             </Card.Body>
                         </Card>{" "}
           &nbsp; &nbsp; &nbsp; &nbsp;
           <Card className=" overflow ml-sm-2 text-center">
                             <Card.Img varient="top" src={Land3} className="card-img-top" />
                             <Card.Body>
-                                <p className=" cardtitlee">
+                                <div className=" cardtitlee">
                                     Get Offer
-              </p>
+              </div>
 
-                                <Card.Text>
+                                <div>
                                     Get the market price you derserve for
-                                    <span style={{ textAlign: 'center' }}> your property in as little as</span>
-                                    <p style={{ textAlign: 'center' }}> 24 hours.</p>
+                                    <div style={{ textAlign: 'center' }}> your property in as little as</div>
+                                    <div style={{ textAlign: 'center' }}> 24 hours.</div>
 
-                                </Card.Text>
+                                </div>
                             </Card.Body>
                         </Card>
           &nbsp; &nbsp; &nbsp; &nbsp;
           <Card className="overflow ml-sm-2 text-center">
                             <Card.Img varient="top" src={Land2} className="card-img-top text-center " />
                             <Card.Body>
-                                <p className=" cardtitlee">
+                                <div className=" cardtitlee">
                                     Freedom!
-              </p>
+              </div>
 
-                                <Card.Text>
+                                <div>
                                     Get the CASH you need now! You do NOT have to wait 6 – 12 months
-                                <p style={{ textAlign: 'center' }}>to get your property sold.</p>
+                                <div style={{ textAlign: 'center' }}>to get your property sold.</div>
 
-                                </Card.Text>
+                                </div>
                             </Card.Body>
                         </Card>
                     </CardGroup>
@@ -81,16 +97,16 @@ class Cardview extends Component {
                 <br></br><br></br>
                 <div className="text-center ">
                     <span className="ltrspc">WHY YOU SHOULD WORK</span>
-                    <p className="ltrspc"> WITH QPG?</p>
+                    <div className="ltrspc"> WITH QPG?</div>
                 </div>
                 <br></br>
                 <br></br>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-sm-2 col-md-2">
+                <div className="container text-center">
+                    <div className="row">
+                        <div className="col-sm-2 col-md-2">
 
                         </div>
-                        <div class="col-sm-4 col-md-4">
+                        <div className="col-sm-4 col-md-4">
 
                             <li><img className="adjustlogo" src={Logo} /></li>
                             <br></br>
@@ -108,7 +124,7 @@ class Cardview extends Component {
 
 
                         </div>
-                        <div class="col-sm-4 col-md-4">
+                        <div className="col-sm-4 col-md-4">
 
                             <li className="adjusttrad">Traditional Sale</li>
                             <br></br>
@@ -122,15 +138,16 @@ class Cardview extends Component {
                             <li><MdClose className="makered" />Expensive upgrades</li>
 
                         </div>
-                        <div class="col-sm-2 col-md-2">
+                        <div className="col-sm-2 col-md-2">
 
                         </div>
                     </div>
                 </div>
                 <br></br><br></br>
-                <div style={{ textAlign: 'center' }}>   <button className="btnsetting">Discover My Offer</button>
+                <div style={{ textAlign: 'center' }}>   <button className="btnsetting" onClick={this.maketovisible} >Discover My Offer</button>
                 </div>
                 <br></br><br></br>
+                {formfor}
             </div >
 
         );
