@@ -104,6 +104,10 @@ class ContactForm extends Component {
 
 
     }
+    handelhide = () => {
+        this.setState({ showsign: false });
+        this.props.close();
+    }
     close = () => {
         this.setState({ errflag: false });
     };
@@ -118,7 +122,7 @@ class ContactForm extends Component {
 
 
 
-                <Modal show={this.state.showsign} className="setLogin" animation={false} onHide={() => this.setState({ showsign: false })}>
+                <Modal show={this.state.showsign} className="setLogin" animation={false} onHide={this.handelhide}>
                     <Modal.Header bsPrefix="modal-header " className="signup2 d-block">
                         <Modal.Title className="signup2">
                             <MdPerson className="signup2" /> Contact Information
