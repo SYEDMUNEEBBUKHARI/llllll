@@ -27,11 +27,11 @@ class Navbarweb extends Component {
         let alignthe = 'collapse navbar-collapse text-center';
         let icon;
         if (this.state.changeicon) {
-            icon = <AiOutlineClose />;
+            icon = <AiOutlineClose style={{ color: 'white' }} />;
             alignthe = 'collapse navbar-collapse text-center bgimageshow'
         }
         else {
-            icon = <TiThMenu />;
+            icon = <TiThMenu style={{ color: 'white' }} />;
         }
         if (this.state.about) {
             return <Redirect to='/aboutus' />
