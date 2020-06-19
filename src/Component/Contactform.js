@@ -151,7 +151,7 @@ class ContactForm extends Component {
                                     <Form.Label>Last Name</Form.Label>
                                     <Form.Control
                                         value={this.state.LName}
-                                        placeholder="Image"
+                                        placeholder="Enter Last Name"
                                         onChange={this.updateLName.bind(this)}
                                     />
                                 </Form.Group>
